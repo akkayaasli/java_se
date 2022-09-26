@@ -14,8 +14,8 @@ public class recapDemo2 {
 			total = total + number;
 			System.err.println(number);
 		}
-		System.err.println("Toplam = "+ total);
-		System.err.println("En Büyük = "+max);
+		System.err.println("Toplam = " + total);
+		System.err.println("En Büyük = " + max);
 	}
 
 }
