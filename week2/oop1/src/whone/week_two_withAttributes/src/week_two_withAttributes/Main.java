@@ -3,12 +3,8 @@ package week_two_withAttributes;
 public class Main {
 
 	public static void main(String[] args) {
-		Product product = new Product();
-		product.setname("Laptop");
-		product.setid(1);
-		product.setdescription("Macbook 13 Pro M2 Processor");
-		product.setprice ( 5000);
-		product.setstockAmount ( 3);
+		Product product = new Product(1,"Laptop","Macbook_13_Pro_M2_Processor",26000,3,"Gümüþ");
+		
 		
 		
 		ProductManager productManager=new ProductManager();
